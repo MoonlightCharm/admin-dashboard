@@ -5,71 +5,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
     <div class="sidebar">
         <div class="logo">
-            <!--icon-->
+            <img class="logo-icon" src="./icons-and-images/view-dashboard.svg" alt="Dashboard icon">
             <h1>Dashboard</h1>
         </div>
         <div class="primary-menu-items">
             <div>
-                <!--icon-->
+                <img class="sidebar-icon" src="./icons-and-images/home.svg" alt="Home icon">
                 <p>Home</p>
             </div>
             <div>
-                <!--icon-->
+                <img class="sidebar-icon" src="./icons-and-images/card-account-details-outline.svg" alt="Profile icon"
+                    class="icon">
                 <p>Profile</p>
             </div>
             <div>
-                <!--icon-->
+                <img class="sidebar-icon" src="./icons-and-images/message-reply.svg" alt="Messages icon">
                 <p>Messages</p>
             </div>
             <div>
-                <!--icon-->
+                <img class="sidebar-icon" src="./icons-and-images/clock-time-three.svg" alt="History icon">
                 <p>History</p>
             </div>
             <div>
-                <!--icon-->
+                <img class="sidebar-icon" src="./icons-and-images/note-multiple.svg" alt="Tasks icon">
                 <p>Tasks</p>
             </div>
             <div>
-                <!--icon-->
+                <img class="sidebar-icon" src="./icons-and-images/account-group.svg" alt="Communities icon">
                 <p>Communities</p>
             </div>
         </div>
         <div class="secondary-menu-items">
             <div>
-                <!--icon-->
+                <img class="sidebar-icon" src="./icons-and-images/cog.svg" alt="Settings icon">
                 <p>Settings</p>
             </div>
             <div>
-                <!--icon-->
+                <img class="sidebar-icon" src="./icons-and-images/help-box.svg" alt="Support icon">
                 <p>Support</p>
             </div>
             <div>
-                <!--icon-->
+                <img class="sidebar-icon" src="./icons-and-images/shield-check.svg" alt="Privacy icon">
                 <p>Privacy</p>
             </div>
         </div>
     </div>
     <div class="header">
-        <div>
+        <div class="search-container">
             <form action="" method="post">
-                <button type="submit">Placeholder</button>
+                <button type="submit"></button>
                 <input type="search" name="search">
             </form>
             <div class="profile-icons">
-                <!--icon-->
-                <img src="" alt="Profile image">
+                <img class="icon" src="./icons-and-images/bell-ring-outline.svg" alt="Notifications icon">
+                <img class="icon image" src="./icons-and-images/cat-img.avif" alt="Profile image">
                 <p>Morgan Oakley</p>
             </div>
         </div>
-        <div>
+        <div class="profile-container">
             <div class="profile">
-                <img src="" alt="Profile image">
+                <img class="icon profile" src="./icons-and-images/cat-img.avif" alt="Profile image">
                 <div>
                     <p>Hi there,</p>
                     <p>Morgan Oakley (@morgan)</p>
@@ -86,82 +92,108 @@
         <div class="projects">
             <h2>Your Projects</h2>
             <div class="card-container">
-                <div class="card">
-                    <h3>Super Cool Project</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. In obcaecati minus veritatis quae et,
-                        aperiam dolore sequi impedit eveniet ipsum iusto fuga placeat nobis animi unde molestias vitae
-                        quibusdam ut?
-                    </p>
-                    <div class="icons">
-                        <!--icon-->
-                        <!--icon-->
-                        <!--icon-->
+                <div>
+                    <div class="card-stripe"></div>
+                    <div class="card">
+                        <h3>Super Cool Project</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In obcaecati minus veritatis quae
+                            et,
+                            aperiam dolore sequi impedit eveniet ipsum iusto fuga placeat nobis animi unde molestias
+                            vitae
+                            quibusdam ut?
+                        </p>
+                        <div class="icons">
+                            <img class="icon" src="./icons-and-images/star-plus-outline.svg"
+                                alt="Mark as important icon">
+                            <img class="icon" src="./icons-and-images/eye-plus-outline.svg"
+                                alt="Add to watch list icon">
+                            <img class="icon" src="./icons-and-images/source-fork.svg" alt="Share icon">
+                        </div>
                     </div>
                 </div>
-                <div class="card">
-                    <h3>Less Cool Project</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. In obcaecati minus veritatis quae et,
-                        aperiam dolore sequi impedit eveniet ipsum iusto fuga placeat nobis animi unde molestias vitae
-                        quibusdam ut?
-                    </p>
-                    <div class="icons">
-                        <!--icon-->
-                        <!--icon-->
-                        <!--icon-->
+                <div>
+                    <div class="card-stripe"></div>
+                    <div class="card">
+                        <h3>Less Cool Project</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In obcaecati minus veritatis quae
+                            et,
+                            aperiam dolore sequi impedit eveniet ipsum iusto fuga placeat nobis animi unde molestias
+                            vitae
+                            quibusdam ut?
+                        </p>
+                        <div class="icons">
+                            <img class="icon" src="./icons-and-images/star-plus-outline.svg"
+                                alt="Mark as important icon">
+                            <img class="icon" src="./icons-and-images/eye-plus-outline.svg"
+                                alt="Add to watch list icon">
+                            <img class="icon" src="./icons-and-images/source-fork.svg" alt="Share icon">
+                        </div>
                     </div>
                 </div>
-                <div class="card">
-                    <h3>Impossible App</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. In obcaecati minus veritatis quae et,
-                        aperiam dolore sequi impedit eveniet ipsum iusto fuga placeat nobis animi unde molestias vitae
-                        quibusdam ut?
-                    </p>
-                    <div class="icons">
-                        <!--icon-->
-                        <!--icon-->
-                        <!--icon-->
+                <div>
+                    <div class="card-stripe"></div>
+                    <div class="card">
+                        <h3>Impossible App</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In obcaecati minus veritatis quae et,
+                            aperiam dolore sequi impedit eveniet ipsum iusto fuga placeat nobis animi unde molestias vitae
+                            quibusdam ut?
+                        </p>
+                        <div class="icons">
+                            <img class="icon" src="./icons-and-images/star-plus-outline.svg" alt="Mark as important icon">
+                            <img class="icon" src="./icons-and-images/eye-plus-outline.svg" alt="Add to watch list icon">
+                            <img class="icon" src="./icons-and-images/source-fork.svg" alt="Share icon">
+                        </div>
                     </div>
                 </div>
-                <div class="card">
-                    <h3>Easy Peasy App</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. In obcaecati minus veritatis quae et,
-                        aperiam dolore sequi impedit eveniet ipsum iusto fuga placeat nobis animi unde molestias vitae
-                        quibusdam ut?
-                    </p>
-                    <div class="icons">
-                        <!--icon-->
-                        <!--icon-->
-                        <!--icon-->
+                <div>
+                    <div class="card-stripe"></div>
+                    <div class="card">
+                        <h3>Easy Peasy App</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In obcaecati minus veritatis quae et,
+                            aperiam dolore sequi impedit eveniet ipsum iusto fuga placeat nobis animi unde molestias vitae
+                            quibusdam ut?
+                        </p>
+                        <div class="icons">
+                            <img class="icon" src="./icons-and-images/star-plus-outline.svg" alt="Mark as important icon">
+                            <img class="icon" src="./icons-and-images/eye-plus-outline.svg" alt="Add to watch list icon">
+                            <img class="icon" src="./icons-and-images/source-fork.svg" alt="Share icon">
+                        </div>
                     </div>
                 </div>
-                <div class="card">
-                    <h3>Ad Blocker</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. In obcaecati minus veritatis quae et,
-                        aperiam dolore sequi impedit eveniet ipsum iusto fuga placeat nobis animi unde molestias vitae
-                        quibusdam ut?
-                    </p>
-                    <div class="icons">
-                        <!--icon-->
-                        <!--icon-->
-                        <!--icon-->
+                <div>
+                    <div class="card-stripe"></div>
+                    <div class="card">
+                        <h3>Ad Blocker</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In obcaecati minus veritatis quae et,
+                            aperiam dolore sequi impedit eveniet ipsum iusto fuga placeat nobis animi unde molestias vitae
+                            quibusdam ut?
+                        </p>
+                        <div class="icons">
+                            <img class="icon" src="./icons-and-images/star-plus-outline.svg" alt="Mark as important icon">
+                            <img class="icon" src="./icons-and-images/eye-plus-outline.svg" alt="Add to watch list icon">
+                            <img class="icon" src="./icons-and-images/source-fork.svg" alt="Share icon">
+                        </div>
                     </div>
                 </div>
-                <div class="card">
-                    <h3>Money Maker</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. In obcaecati minus veritatis quae et,
-                        aperiam dolore sequi impedit eveniet ipsum iusto fuga placeat nobis animi unde molestias vitae
-                        quibusdam ut?
-                    </p>
-                    <div class="icons">
-                        <!--icon-->
-                        <!--icon-->
-                        <!--icon-->
+                <div>
+                    <div class="card-stripe"></div>
+                    <div class="card">
+                        <h3>Money Maker</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In obcaecati minus veritatis quae et,
+                            aperiam dolore sequi impedit eveniet ipsum iusto fuga placeat nobis animi unde molestias vitae
+                            quibusdam ut?
+                        </p>
+                        <div class="icons">
+                            <img class="icon" src="./icons-and-images/star-plus-outline.svg" alt="Mark as important icon">
+                            <img class="icon" src="./icons-and-images/eye-plus-outline.svg" alt="Add to watch list icon">
+                            <img class="icon" src="./icons-and-images/source-fork.svg" alt="Share icon">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -169,21 +201,23 @@
         <div class="announcements">
             <h2>Announcements</h2>
             <div class="announcement-card">
-                <div>
+                <div class="announcement">
                     <h4>Site Maintenance</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In obcaecati minus veritatis quae et,
                         aperiam dolore sequi impedit eveniet ipsum iusto fuga placeat nobis animi unde molestias vitae
                         quibusdam ut?
                     </p>
                 </div>
-                <div>
+                <div class="divider"></div>
+                <div class="announcement">
                     <h4>Community Share Day</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In obcaecati minus veritatis quae et,
                         aperiam dolore sequi impedit eveniet ipsum iusto fuga placeat nobis animi unde molestias vitae
                         quibusdam ut?
                     </p>
                 </div>
-                <div>
+                <div class="divider"></div>
+                <div class="announcement">
                     <h4>Updated Privacy Policy</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In obcaecati minus veritatis quae et,
                         aperiam dolore sequi impedit eveniet ipsum iusto fuga placeat nobis animi unde molestias vitae
@@ -193,21 +227,31 @@
             </div>
         </div>
         <div class="trending">
+            <h2>Trending</h2>
             <div class="trending-card">
-                <div class="user">
-                    <img src="" alt="User image">
+                <div>
+                    <img class="icon image" src="./icons-and-images/dog-img.avif" alt="Profile image">
                     <div>
                         <p>@tegan</p>
                         <p>World Peace Builder</p>
                     </div>
+                </div>
+                <div>
+                    <img class="icon image" src="./icons-and-images/cat-img.avif" alt="Profile image">
                     <div>
                         <p>@morgan</p>
                         <p>Super Cool Project</p>
                     </div>
+                </div>
+                <div>
+                    <img class="icon image" src="./icons-and-images/bear-img.avif" alt="Profile image">
                     <div>
                         <p>@kendall</p>
                         <p>Life Changing App</p>
                     </div>
+                </div>
+                <div>
+                    <img class="icon image" src="./icons-and-images/penguin-img.avif" alt="Profile image">
                     <div>
                         <p>@alex</p>
                         <p>No Traffic Maker</p>
